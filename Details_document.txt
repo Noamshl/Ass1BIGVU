@@ -1,0 +1,25 @@
+# Assignment1 documentaion:
+
+1. How to run the code locally:
+   a. Fork this repository and clone it.
+   b. Create a client for the server:
+     1. Create request for host "http://localhost:3000/" (port = 3000).
+   c. Start the server:
+     1. Open command line/terminal/Visual Studio Code terminal at the "Ass1BIGVU/src" directory (or the "***\src").
+     2. Run "node server.js" on the terminal.
+   d. Send request for the server from the client.
+   e. Get from the client the mp4 file directory (the response from the server). 
+   e. Run the mp4 file.
+
+2. Notes:
+   a. I left as a comment an 'axios' client.
+   
+   b. If you don't want to clone the whole task:
+      1. Copy the "server.js" file.
+      2. init node and install these:
+        a. npm install express (server framework).
+        b. npm install node-server-screenshot (url screenshot api).
+        c. npm install --save @ffmpeg-installer/ffmpeg.
+        d. npm install --save @ffprobe-installer/ffprobe (these two help to ignore setting the path of ffmpeg out of the nodejs).
+        e. npm install videoshow (video creator from image - uses fluent-ffmpeg).
+        f. (optional - npm install axios).
