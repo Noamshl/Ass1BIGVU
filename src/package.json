@@ -1,0 +1,12 @@
+{
+  "name": "webserver",
+  "version": "0.0.1",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@ffprobe-installer/ffprobe": "^1.1.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-server-screenshot": "^0.2.4",
+    "videoshow": "^0.1.12"
+  }
+}
