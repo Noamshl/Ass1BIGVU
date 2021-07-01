@@ -1,4 +1,4 @@
-# Assignment1 documentaion:
+ Assignment1 documentation:
 
 1. How to run the code locally:
    a. Fork this repository and clone it.
