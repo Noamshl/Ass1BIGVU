@@ -85,8 +85,8 @@ app.listen(3000);
 //   url:'https://www.google.co.il/?hl=iw'
 // })
 // .then((res)=> {
-  
-//   const file_name = res.data.file;
+//     const file_name = res.data.file;
+//     console.log(file_name);
 //     if(fs.existsSync(file_name)){
 //       console.log("the file exist");
 //     }
